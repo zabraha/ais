@@ -20,7 +20,6 @@ export const ArticleDetailModal: React.FC<Props> = ({ article, onClose, isOpen }
           <span>{new Date(article.createdDate).toLocaleDateString()}</span>
         </div>
         <p>{article.content}</p>
-        {/* Placeholder for full article content if available */}
       </div>
     </div>
   );
