@@ -57,29 +57,3 @@ export const ARTICLES: Article[] = [
     "popularity": 34200
   }
 ];
-[
-  {
-    id: 'a1',
-    title: 'Getting Started with Our Knowledge Base',
-    content: 'Learn how to search, filter, and navigate articles quickly.',
-    category: 'Getting Started',
-    tags: ['beginner', 'knowledgebase'],
-    relevanceScore: 0.92,
-    createdDate: '2024-11-01',
-    lastUpdated: '2024-11-01',
-    popularity: 1500,
-  },
-  {
-    id: 'a2',
-    title: 'Advanced Search Techniques',
-    content: 'Use filters, boolean operators, and wildcards to refine results.',
-    category: 'Guides',
-    tags: ['advanced', 'search'],
-    relevanceScore: 0.81,
-    createdDate: '2025-02-10',
-    lastUpdated: '2025-05-17',
-    popularity: 980,
-  },
-  // Add more articles with varied dates, categories, relevance, popularity
-  // Ensure date is ISO-like: 'YYYY-MM-DD'
-];
